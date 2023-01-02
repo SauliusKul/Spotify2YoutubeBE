@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: youtube-to-spotify
+  datasource:
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASSWORD}
+    url: ${DATABASE_URL}
+
+config:
+  client_id: ${CLIENT_ID}
+  client_secret: ${CLIENT_SECRET}

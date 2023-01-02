@@ -28,6 +28,8 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compileOnly 'org.springframework.boot:spring-boot-starter-webflux:3.0.1'
+	implementation 'se.michaelthelin.spotify:spotify-web-api-java:7.3.0'
 }
 
 tasks.named('test') {
